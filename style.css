@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    font-style: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+
+#container {
+    /* display: flex;
+    flex-direction: row; */
+    height: 720px;
+    width: 100%;
+}
+
+#header {
+    height: 10%;
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#header ul li{
+    padding: 20px;
+}
+#logo {
+    margin-left: 20px;
+}
+.menu {
+    margin-right: 20px;
+}
+
+#content {
+    width: 100%;
+    margin: auto;
+    height: 80%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#products {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer {
+    background-color: bisque;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    width: 30%;
+    border: 1px solid rgb(150, 150, 150);
+    height: 480px;
+    margin: 0 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.product_photo img{
+    height: 300px;
+    margin-top: 30px;
+}
+
+.product_name h3{
+    margin-top: 20px;
+}
+
+/* product detail */
+
+#content_detail {
+    width: 100%;
+    height: 80%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+}
+
+.view_detail {
+    margin-top: 20px;
+}
+.view_detail a {
+    font-size: 16px;
+}
+
+.product_detail {
+    margin-left: 40px;
+    display: flex;
+}
+
+.info {
+    margin-left: 30px;
+}
+
+.product_detail_photo img{
+    height: 500px;
+}
+
+.product_detail_name h3 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.info p {
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+.pagination {
+    margin-bottom: 10px;
+}
+
+.add_to_cart a{
+    font-size: 16px;
+}
